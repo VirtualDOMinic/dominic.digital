@@ -1,2 +1,3 @@
 # dominic.digital
-Placeholder for dominic.digital. Modifying this line for a test push.
+
+Placeholder for dominic.digital personal site.
