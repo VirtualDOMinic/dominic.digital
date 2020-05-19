@@ -11,10 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
-          Dom is trying out <a href="https://nextjs.org">Next.js!</a> for the
-          first time
-        </h1>
+        <h1 className="title">Dom is trying out Next.js for the first time!</h1>
         <p>
           And he made a{" "}
           <Link href="/blog">
