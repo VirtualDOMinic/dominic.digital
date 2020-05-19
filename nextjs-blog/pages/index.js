@@ -1,17 +1,26 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>dominic.digital |&gt; Coding, growth, empathy, misc</title>
+        <link rel="icon" type="image/svg+xml" href="/favicon-placeholder.svg" />
+        {/* <link rel="alternate icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Dom is trying out <a href="https://nextjs.org">Next.js!</a> for the
+          first time
         </h1>
+        <p>
+          And he made a{" "}
+          <Link href="/blog">
+            <a>blog placeholder!</a>
+          </Link>
+        </p>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -54,7 +63,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
@@ -205,5 +214,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
